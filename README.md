@@ -1,6 +1,6 @@
 Clone repository with
 
-	git clone git://github.com/jojahner/dot-vim.git .vim```
+	git clone git://github.com/jojahner/dot-vim.git .vim
 
 Create .vimrc symlink
 
