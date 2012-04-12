@@ -57,3 +57,11 @@ function IndentV()
   Tabularize /^[^=>]*\zs=>/l1
 endfunction
 map <Leader>iv :call IndentV()<cr>
+
+" Bubble single lines
+nmap <C-Up> [e
+nmap <C-Down> ]e
+" Bubble multiple lines
+vmap <C-Up> [egv
+vmap <C-Down> ]egv
+
