@@ -45,8 +45,6 @@ colorscheme solarized
 set laststatus=2
 
 let mapleader = ","
-map <leader>t :CommandT<CR>
-map <leader>z :FuzzyFinderFile<CR>
 
 map <F4> :TagbarOpenAutoClose<CR>
 
