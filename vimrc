@@ -4,11 +4,6 @@ call pathogen#helptags()
 syntax on
 filetype indent plugin on
 
-let g:fuzzy_roots = ["app", "config", "db", "lib", "test", "spec", "script"]
-let g:fuzzy_ceiling = 20000
-let g:fuzzy_ignore = "tags, *.jpg, *.gif, *.png, .git/**/*, tmp/**/*, log/**/*"
-" let g:fuzzy_path_display = 'path'
-
 set nocompatible
 set backspace=indent,eol,start
 set autoindent		" always set autoindenting on
@@ -22,7 +17,7 @@ set wildmode=list:full
 set ignorecase
 set nocp
 set noswapfile
-
+set hidden
 set shiftwidth=2 
 set softtabstop=2 
 set expandtab
@@ -48,13 +43,17 @@ let mapleader = ","
 
 map <F4> :TagbarOpenAutoClose<CR>
 
-map <Leader>rt :!ctags --extra=+f --exclude=.git --exclude=log -R * `rvm gemdir`/gems/*<CR><CR>
+map <Leader>b :BufExplorer<CR>
+map <Leader>bs :BufExplorerHorizontalSplit<CR>
+map <Leader>bv :BufExplorerVerticalSplit<CR>
+
+map <Leader>rt :!ctags --extra=+f --exclude=.git --exclude=log -R *<CR><CR>
 
 function IndentV()
   Tabularize /^[^:]*\zs:/r1c0l0
   Tabularize /^[^=>]*\zs=>/l1
 endfunction
-map <Leader>iv :call IndentV()<cr>
+map <Leader>iv :call IndentV()<CR>
 
 " Bubble single lines
 nmap <C-Up> [e
@@ -63,3 +62,22 @@ nmap <C-Down> ]e
 vmap <C-Up> [egv
 vmap <C-Down> ]egv
 
+nmap <silent> <leader>l :TagbarOpenAutoClose<CR>
+
+" Run Ack fast
+nnoremap <silent> <leader>q :Ack<Space>
+
+" Easy window navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+nnoremap <leader>w <C-w>v<C-w>l
+nnoremap <leader>W <C-w>s<C-w>j
+
+" Show current tag for word under the cursor
+nnoremap <silent> <leader>t <C-]>
+nnoremap <silent> <leader>st <C-w><C-]>
+" Show current tag list for word under the cursor
+nnoremap <silent> <leader>tj g<C-]>
+nnoremap <silent> <leader>stj <C-w>g<C-]>
