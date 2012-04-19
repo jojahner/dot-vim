@@ -44,8 +44,8 @@ let mapleader = ","
 map <F4> :TagbarOpenAutoClose<CR>
 
 map <Leader>b :BufExplorer<CR>
-map <Leader>bs :BufExplorerHorizontalSplit<CR>
-map <Leader>bv :BufExplorerVerticalSplit<CR>
+" map <Leader>bs :BufExplorerHorizontalSplit<CR>
+" map <Leader>bv :BufExplorerVerticalSplit<CR>
 
 map <Leader>rt :!ctags --extra=+f --exclude=.git --exclude=log -R *<CR><CR>
 
