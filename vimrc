@@ -81,3 +81,7 @@ nnoremap <silent> <leader>st <C-w><C-]>
 " Show current tag list for word under the cursor
 nnoremap <silent> <leader>tj g<C-]>
 nnoremap <silent> <leader>stj <C-w>g<C-]>
+
+let NERDTreeQuitOnOpen = 1
+nnoremap <silent> <leader>n :NERDTreeToggle<CR>
+
