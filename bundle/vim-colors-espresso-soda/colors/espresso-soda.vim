@@ -29,7 +29,7 @@ hi Folded ctermfg=248 ctermbg=15 cterm=NONE guifg=#adadad guibg=#ffffff gui=NONE
 
 hi Normal ctermfg=0 ctermbg=15 cterm=NONE guifg=#000000 guibg=#ffffff gui=NONE
 hi Boolean ctermfg=97 ctermbg=231 cterm=NONE guifg=#7653c1 guibg=#f3f2ff gui=NONE
-hi Character ctermfg=130 ctermbg=231 cterm=NONE guifg=#bc670f guibg=#fffdf7 gui=NONE
+hi Character ctermfg=130 ctermbg=231 cterm=NONE guifg=#bc670f guibg=#fff8e2 gui=NONE
 hi Comment ctermfg=248 ctermbg=NONE cterm=NONE guifg=#adadad guibg=NONE gui=NONE
 hi Conditional ctermfg=64 ctermbg=NONE cterm=NONE guifg=#61862f guibg=NONE gui=NONE
 hi Constant ctermfg=97 ctermbg=231 cterm=NONE guifg=#7653c1 guibg=#f3f2ff gui=NONE
@@ -44,7 +44,7 @@ hi Float ctermfg=97 ctermbg=231 cterm=NONE guifg=#7653c1 guibg=#f3f2ff gui=NONE
 hi Function ctermfg=64 ctermbg=NONE cterm=NONE guifg=#61862f guibg=NONE gui=NONE
 hi Identifier ctermfg=55 ctermbg=NONE cterm=NONE guifg=#6700b9 guibg=NONE gui=NONE
 hi Keyword ctermfg=64 ctermbg=NONE cterm=NONE guifg=#61862f guibg=NONE gui=NONE
-hi Label ctermfg=130 ctermbg=231 cterm=NONE guifg=#bc670f guibg=#fffdf7 gui=NONE
+hi Label ctermfg=130 ctermbg=231 cterm=NONE guifg=#bc670f guibg=#fff8e2 gui=NONE
 hi NonText ctermfg=254 ctermbg=231 cterm=NONE guifg=#e0e0e0 guibg=#ffffff gui=NONE
 hi Number ctermfg=97 ctermbg=231 cterm=NONE guifg=#7653c1 guibg=#f3f2ff gui=NONE
 hi Operator ctermfg=62 ctermbg=NONE cterm=NONE guifg=#626fc9 guibg=NONE gui=NONE
@@ -53,7 +53,7 @@ hi Special ctermfg=0 ctermbg=NONE cterm=NONE guifg=#000000 guibg=NONE gui=NONE
 hi SpecialKey ctermfg=254 ctermbg=254 cterm=NONE guifg=#e0e0e0 guibg=#e6e6e6 gui=NONE
 hi Statement ctermfg=64 ctermbg=NONE cterm=NONE guifg=#61862f guibg=NONE gui=NONE
 hi StorageClass ctermfg=55 ctermbg=NONE cterm=NONE guifg=#6700b9 guibg=NONE gui=NONE
-hi String ctermfg=130 ctermbg=231 cterm=NONE guifg=#bc670f guibg=#fffdf7 gui=NONE
+hi String ctermfg=130 ctermbg=231 cterm=NONE guifg=#bc670f guibg=#fff8e2 gui=NONE
 hi Tag ctermfg=25 ctermbg=231 cterm=NONE guifg=#2f6f9f guibg=#f4faff gui=NONE
 hi Title ctermfg=0 ctermbg=NONE cterm=bold guifg=#000000 guibg=NONE gui=bold
 hi Todo ctermfg=248 ctermbg=NONE cterm=inverse,bold guifg=#adadad guibg=NONE gui=inverse,bold
