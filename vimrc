@@ -36,8 +36,9 @@ endif
 "
 syntax enable
 set background=light
-colorscheme solarized
- 
+""colorscheme solarized
+colorscheme espresso-soda 
+
 set laststatus=2
 
 let mapleader = ","
