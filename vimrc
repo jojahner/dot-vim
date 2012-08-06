@@ -22,6 +22,7 @@ set shiftwidth=2
 set softtabstop=2 
 set expandtab
 
+set number
 set smartcase 
 set autoindent
 set smartindent
@@ -85,3 +86,5 @@ nnoremap <silent> <leader>stj <C-w>g<C-]>
 let NERDTreeQuitOnOpen = 1
 nnoremap <silent> <leader>n :NERDTreeToggle<CR>
 
+let g:SuperTabDefaultCompletionType = "<c-x><c-p>"
+let g:SuperTabContextDefaultCompletionType = "<c-x><c-p>"
