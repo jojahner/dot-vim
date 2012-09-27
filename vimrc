@@ -29,7 +29,7 @@ set smartindent
 
 if has("gui_running")
   set guioptions-=T
-  set guifont=Menlo:h13
+  set guifont=Source\ Code\ Pro:h13
 endif
  
 "colorscheme Tomorrow-Night-Eighties
