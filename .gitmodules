@@ -68,3 +68,6 @@
 	path = bundle/supertab
 	url = git://github.com/ervandew/supertab.git
 
+[submodule "bundle/vim-easymotion"]
+	path = bundle/vim-easymotion
+	url = git://github.com/Lokaltog/vim-easymotion.git
